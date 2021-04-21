@@ -7,7 +7,7 @@ if __name__ == '__main__':
     
     while True:
         val = input("Enter string: ")
-        input_string = val + '\n'
+        input_string = val + '!\n'
         ser.write(input_string.encode('utf-8'))
         
         #if ser.in_waiting > 0:
